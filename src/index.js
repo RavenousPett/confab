@@ -19,8 +19,8 @@ const store = createStore(
                 getFirebase, getFirestore
             })
         ),
-        reduxFirestore(fbConfig),
-        reactReduxFirebase(fbConfig)
+        reactReduxFirebase(fbConfig),
+        reduxFirestore(fbConfig)
     )
 );
 
